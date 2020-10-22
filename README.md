@@ -271,6 +271,20 @@ understands:
 
 It's pretty dumb. `2 * [dice]` is a valid damage formula.  `2*[dice]` is not.  You also can't do `1d6 + [sum]`.
 
+### EFFECTS
+
+Saved this for last because you kind of need to see the rest of the sheet to understand it.  If you pull in the Fighter example from the compendium and go to the effects you see: 
+
+![pc effects](img/pc_effects.png)
+
+1. a summary of all the modifiers applied to the character
+
+The other section has four sections: 
+
+- Manual effects where you just want to track something but it has no automatically calculated effect.  In this case, our fighter gets +1 attack per round and this is just a handy place to store it 
+- Auto Applied effects where these DO have some sort of automatic calculation.  They can equipped or not equipped (if not equipped, they don't get counted, e.g. for things that are temporary).  In our case we've got some injuries, this is where we would track it! 
+- if any items/equipments/etc. was equipped that had a stat ability, this is where it would show up 
+- if any items/equipment/etc. had some sort of manual stat thing to track (e.g. not automatically calculated) this is where it would show up.
 
 
 
@@ -290,7 +304,7 @@ Has some example inputs for: fighter, hunter, orthodox wizard which should give 
 
 # GM STUFF
 
-## NPC SHEE
+## NPC SHEET
 
 The NPC sheet is drastically stripped down from the PC sheet and pretty simple dumb:
 
